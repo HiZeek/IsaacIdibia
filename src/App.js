@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import Header from "./components/layout/Header";
+import About from "./components/pages/About";
 import Hero from "./components/pages/Hero";
+import Skills from "./components/pages/Skills";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <main className="main">
         <Hero />
+        <About />
+        <Skills />
       </main>
     </Fragment>
   );
