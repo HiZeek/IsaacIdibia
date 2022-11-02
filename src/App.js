@@ -4,6 +4,7 @@ import About from "./components/pages/About";
 import Hero from "./components/pages/Hero";
 import Skills from "./components/pages/Skills";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Skills />
         <Contact />
+        <Footer />
       </main>
     </Fragment>
   );
