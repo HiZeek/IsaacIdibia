@@ -5,6 +5,7 @@ import Hero from "./components/pages/Hero";
 import Skills from "./components/pages/Skills";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/layout/Footer";
+import ScrollToTop from "./components/layout/ScrollToTop";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <About />
         <Skills />
         <Contact />
-        <Footer />
       </main>
+      <Footer />
+      <ScrollToTop />
     </Fragment>
   );
 }
