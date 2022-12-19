@@ -6,6 +6,7 @@ import Skills from "./components/pages/Skills";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/layout/Footer";
 import ScrollToTop from "./components/layout/ScrollToTop";
+import Portfolio from "./components/pages/Portfolio";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Portfolio />
         <Contact />
       </main>
       <Footer />
