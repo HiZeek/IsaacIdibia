@@ -13,19 +13,19 @@ const About = () => {
         <div className="about-data">
           <Info />
           <p className="about-description">
-            My name is ISAAC IDIBIA IGOCHE, I am a frontend engineer and
-            wordpress specialist. I build swift, beautiful and responsive
-            websites with HTML, CSS, JavaScript and React JavaScript using the
-            Visual Studio Code and Github as tools and also WordPress using
-            Elementor page builder and WP bakery. I currently base in Abuja
-            State, Nigeria.
+            My name is Isaac Idibia, I am a frontend engineer and WordPress
+            Specialist in Abuja, Nigeria. I build engaging and responsive
+            websites with HTML, CSS, JS, and ReactJS using Figma, Visual Studio
+            Code, and WordPress as design and development tools.
           </p>
           <a
-            href="https://www.zeektech.com.ng/isaacidibia/"
+            href="https://drive.google.com/file/d/1x-dqOnNuj64tFTQ4PNCHjBHuO4BqqzMA/view?usp=sharing"
             className="button button-flex"
+            target="_blank"
+            rel="noreferrer"
           >
-            Download CV 
-             <svg
+            Download CV
+            <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"

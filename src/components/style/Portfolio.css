@@ -6,6 +6,20 @@
   margin-bottom: var(--mb-2);
 }
 
+.portfolio-works {
+  display: grid;
+}
+
+.load-after {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.load-more {
+  margin-top: 50px;
+  justify-self: center;
+}
+
 .portfolio-item {
   cursor: pointer;
   color: var(--title-color);
@@ -106,6 +120,10 @@
   .portfolio-card {
     width: 360px;
   }
+
+  .portfolio-container {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -115,5 +133,10 @@
 
   .portfolio-filters {
     column-gap: 0.25rem;
+  }
+
+  .portfolio-img,
+  .portfolio-card {
+    width: 300px;
   }
 }

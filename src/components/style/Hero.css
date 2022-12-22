@@ -9,6 +9,17 @@
   align-items: center;
 }
 
+.home__hand,
+.button__icon,
+.button__icon-briefcase  {
+  margin-left: 8px;
+}
+
+.button__icon-briefcase {
+  width: 24px;
+  height: 24px;
+}
+
 .home-social {
   display: grid;
   grid-template-columns: max-content;

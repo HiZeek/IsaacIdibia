@@ -10,6 +10,7 @@ import GmailClone from "../../assets/gmail_clone.png";
 import LinkedInClone from "../../assets/linkedin_clone.png";
 import Natours from "../../assets/natours.png";
 import ZuriChat from "../../assets/zuri_chat.png";
+import RedeHub from "../../assets/RedeHub.png";
 
 const projectsData = [
   {
@@ -46,6 +47,14 @@ const projectsData = [
   },
   {
     id: "pd5",
+    image: RedeHub,
+    title: "RedeHub",
+    desc: "A free training academy for upcoming techies",
+    url: "https://www.redehub.com.ng/",
+    category: "WordPress",
+  },
+  {
+    id: "pd6",
     image: WeBuyHouses,
     title: "We buy houses",
     desc: "A real estate company",
@@ -53,7 +62,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd6",
+    id: "pd7",
     image: VersalVest,
     title: "Versal Vest",
     desc: "An investment company",
@@ -61,7 +70,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd7",
+    id: "pd8",
     image: MahoganyModels,
     title: "Mahogany Models",
     desc: "A website for models",
@@ -69,7 +78,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd8",
+    id: "pd9",
     image: FilmByFrazier,
     title: "Film by Frazier",
     desc: "A photographer's portfolio website",
@@ -77,7 +86,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd9",
+    id: "pd10",
     image: Digitemi,
     title: "Digitemi",
     desc: "An NGO website",
@@ -85,7 +94,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd10",
+    id: "pd11",
     image: BobbyLamkin,
     title: "Bobby Lamkin",
     desc: "A portfolio website",
@@ -93,7 +102,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd11",
+    id: "pd12",
     image: AbilityBehavioural,
     title: "Ability Behavioural",
     desc: "A website for mental help care",
@@ -101,7 +110,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd12",
+    id: "pd13",
     image: Natours,
     title: "Natours",
     desc: "A random project built with HTML and CSS",

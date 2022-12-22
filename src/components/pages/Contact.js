@@ -56,7 +56,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Insert your name"
+                placeholder="Enter your name"
                 className="contact-form-input"
               />
             </div>
@@ -65,7 +65,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="Insert your email"
+                placeholder="Enter your email"
                 className="contact-form-input"
               />
             </div>
@@ -75,12 +75,12 @@ const Contact = () => {
                 name="project"
                 cols="30"
                 rows="10"
-                placeholder="Write your project"
+                placeholder="Tell me about your project "
                 className="contact-form-input"
               ></textarea>
             </div>
             <button className="button button-flex">
-              Say Message{" "}
+              Send Message{" "}
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
