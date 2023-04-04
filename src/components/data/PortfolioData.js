@@ -12,6 +12,7 @@ import Natours from "../../assets/natours.png";
 import ZuriChat from "../../assets/zuri_chat.png";
 import RedeHub from "../../assets/RedeHub.png";
 import MediumClone from "../../assets/medium_clone.png";
+import JuiceLab from "../../assets/JuiceLab.png";
 
 const projectsData = [
   {
@@ -48,6 +49,14 @@ const projectsData = [
   },
   {
     id: "pd5",
+    image: JuiceLab,
+    title: "Juice Lab",
+    desc: "Juice Lab is a React and Tailwind CSS-based web application for ordering customized juices and smoothies",
+    url: "https://juicelab.netlify.app/",
+    category: "React JS",
+  },
+  {
+    id: "pd6",
     image: ZuriChat,
     title: "Zuri Chat",
     desc: "A web app for remote working",
@@ -55,7 +64,7 @@ const projectsData = [
     category: "React JS",
   },
   {
-    id: "pd6",
+    id: "pd7",
     image: RedeHub,
     title: "RedeHub",
     desc: "A free training academy for upcoming techies",
@@ -63,7 +72,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd7",
+    id: "pd8",
     image: WeBuyHouses,
     title: "We buy houses",
     desc: "A real estate company",
@@ -71,7 +80,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd8",
+    id: "pd9",
     image: VersalVest,
     title: "Versal Vest",
     desc: "An investment company",
@@ -79,7 +88,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd9",
+    id: "pd10",
     image: MahoganyModels,
     title: "Mahogany Models",
     desc: "A website for models",
@@ -87,7 +96,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd10",
+    id: "pd11",
     image: FilmByFrazier,
     title: "Film by Frazier",
     desc: "A photographer's portfolio website",
@@ -95,7 +104,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd11",
+    id: "pd12",
     image: Digitemi,
     title: "Digitemi",
     desc: "An NGO website",
@@ -103,7 +112,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd12",
+    id: "pd13",
     image: BobbyLamkin,
     title: "Bobby Lamkin",
     desc: "A portfolio website",
@@ -111,7 +120,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd13",
+    id: "pd14",
     image: AbilityBehavioural,
     title: "Ability Behavioural",
     desc: "A website for mental help care",
@@ -119,7 +128,7 @@ const projectsData = [
     category: "WordPress",
   },
   {
-    id: "pd14",
+    id: "pd15",
     image: Natours,
     title: "Natours",
     desc: "A random project built with HTML and CSS",
