@@ -24,7 +24,7 @@ const About = () => {
             reach their goals – all while expanding my own horizons.
           </p>
           <a
-            href="https://drive.google.com/file/d/1x-dqOnNuj64tFTQ4PNCHjBHuO4BqqzMA/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BEXKNiUaqgZEf5qzbG2rPkFO4wDQYls_/view?usp=sharing"
             className="button button-flex"
             target="_blank"
             rel="noreferrer"
