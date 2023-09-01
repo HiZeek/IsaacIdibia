@@ -13,10 +13,15 @@ const About = () => {
         <div className="about-data">
           <Info />
           <p className="about-description">
-            My name is Isaac Idibia, I am a frontend engineer and WordPress
-            Specialist in Abuja, Nigeria. I build engaging and responsive
-            websites with HTML, CSS, JS, and ReactJS using Figma, Visual Studio
-            Code, and WordPress as design and development tools.
+            My name is Isaac Idibia, I am a dedicated Front-end Software
+            Developer with 3 years of hands-on experience crafting and managing
+            innovative products that create amazing user experiences. I love
+            diving into technologies like React.js, Redux, TypeScript, and
+            GraphQL APIs as part of tight-knit, agile teams. My journey is all
+            about learning while delivering. Currently, I'm on the lookout for
+            an exciting opportunity in a forward-thinking company. I'm eager to
+            apply my technical skills, collaborate closely, and help clients
+            reach their goals – all while expanding my own horizons.
           </p>
           <a
             href="https://drive.google.com/file/d/1x-dqOnNuj64tFTQ4PNCHjBHuO4BqqzMA/view?usp=sharing"
