@@ -14,15 +14,14 @@ const PortfolioWork = () => {
   const handleLoadMore = () => {
     if (loadMore.length < projectsData.length) {
       setVisibleItem(visibleItem + 4);
-    } 
+    }
   };
 
   useEffect(() => {
     if (loadMore.length === projectsData.length) {
       setHideLoadMore(true);
     }
-  }, [loadMore, projects])
-  
+  }, [loadMore, projects]);
 
   useEffect(() => {
     if (item.name === "all") {
@@ -58,8 +57,8 @@ const PortfolioWork = () => {
         ))}
       </div>
       <div className="portfolio-container container grid">
-        {loadMore.map((item) => (
-          <PortfolioItems item={item} key={item.id} />
+        {loadMore.map((item, i) => (
+          <PortfolioItems item={item} key={i} />
         ))}
       </div>
       {!hideLoadMore ? (
@@ -82,7 +81,10 @@ const PortfolioWork = () => {
           </svg>
         </button>
       ) : (
-        <p className="load-after">Thats all projects for now, Do well to <a href="#contact">contact us</a></p>
+        <p className="load-after">
+          Thats all projects for now, Do well to{" "}
+          <a href="#contact">contact us</a>
+        </p>
       )}
     </div>
   );
