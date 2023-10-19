@@ -13,8 +13,16 @@ import Natours from "../../assets/natours.png";
 import RedeHub from "../../assets/RedeHub.png";
 import MediumClone from "../../assets/medium_clone.png";
 import JuiceLab from "../../assets/JuiceLab.png";
+import AdminDashboard from "../../assets/AdminDashboard.png";
 
 const projectsData = [
+  {
+    image: AdminDashboard,
+    title: "Admin Dashboard",
+    desc: "Admin Dashboard built with ReactJS, MUI, Nivo Charts",
+    url: "https://addmindashboard.netlify.app/",
+    category: "React JS",
+  },
   {
     image: GmailClone,
     title: "Gmail clone",
