@@ -1,16 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../style/About.css";
 import AboutImg from "../../assets/about.jpg";
 import Info from "../layout/Info";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <section className="about section" id="about">
-      <h2 className="section-title">About Me</h2>
-      <span className="section-subtitle">My introduction</span>
+      <h2 data-aos="fade-up" className="section-title">
+        About Me
+      </h2>
+      <span data-aos="fade-up" className="section-subtitle">
+        My introduction
+      </span>
       <div className="about-container container grid">
-        <img src={AboutImg} alt="Isaac Idibia" className="about-img" />
-        <div className="about-data">
+        <img
+          data-aos="fade-right"
+          src={AboutImg}
+          alt="Isaac Idibia"
+          className="about-img"
+        />
+        <div className="about-data" data-aos="fade-left">
           <Info />
           <p className="about-description">
             My name is Isaac Idibia, I am a dedicated Front-end Software

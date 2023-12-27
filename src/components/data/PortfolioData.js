@@ -22,6 +22,7 @@ const projectsData = [
     desc: "Admin Dashboard built with ReactJS, MUI, Nivo Charts",
     url: "https://addmindashboard.netlify.app/",
     category: "React JS",
+    animation: "fade-right",
   },
   {
     image: GmailClone,
@@ -29,6 +30,7 @@ const projectsData = [
     desc: "Gmail clone built with ReactJS, Embedded Google Authentication, Firebase for storage, Redux for state management",
     url: "https://clone-47f7a.web.app/",
     category: "React JS",
+    animation: "fade-left",
   },
   {
     image: LinkedInClone,
@@ -36,6 +38,7 @@ const projectsData = [
     desc: "LinkedIn clone built with ReactJS, Firebase for storage, Redux for state management",
     url: "https://linkedin-3c5df.web.app/",
     category: "React JS",
+    animation: "fade-right",
   },
   {
     image: SlackClone,
@@ -43,6 +46,7 @@ const projectsData = [
     desc: "Slack clone built with ReactJS, Firebase for storage, Redux for state management",
     url: "https://slack-clone-33cdd.web.app/",
     category: "React JS",
+    animation: "fade-left",
   },
   {
     image: MediumClone,
@@ -50,6 +54,7 @@ const projectsData = [
     desc: "Medium clone built with NextJS, TypeScript, Sanity",
     url: "https://medium-hizeek.vercel.app/",
     category: "React JS",
+    animation: "fade-right",
   },
   {
     image: JuiceLab,
@@ -57,6 +62,7 @@ const projectsData = [
     desc: "Juice Lab is a React and Tailwind CSS-based web application for ordering customized juices and smoothies",
     url: "https://juicelab.netlify.app/",
     category: "React JS",
+    animation: "fade-left",
   },
   {
     image: RedeHub,
@@ -64,6 +70,7 @@ const projectsData = [
     desc: "A free training academy for upcoming techies",
     url: "https://www.redehub.com.ng/",
     category: "WordPress",
+    animation: "fade-right",
   },
   {
     image: WeBuyHouses,
@@ -71,6 +78,7 @@ const projectsData = [
     desc: "A real estate company",
     url: "https://webuyhousesshawnee.com/",
     category: "WordPress",
+    animation: "fade-left",
   },
   {
     image: VersalVest,
@@ -78,6 +86,7 @@ const projectsData = [
     desc: "An investment company",
     url: "https://www.versalvest.com/",
     category: "WordPress",
+    animation: "fade-right",
   },
   {
     image: MahoganyModels,
@@ -85,6 +94,7 @@ const projectsData = [
     desc: "A website for models",
     url: "https://www.mahoganymodelmanagement.com/",
     category: "WordPress",
+    animation: "fade-left",
   },
   {
     image: FilmByFrazier,
@@ -92,6 +102,7 @@ const projectsData = [
     desc: "A photographer's portfolio website",
     url: "https://filmedbyfrazier.org/",
     category: "WordPress",
+    animation: "fade-right",
   },
   // {
   //   image: BobbyLamkin,
@@ -106,6 +117,7 @@ const projectsData = [
     desc: "A website for mental help care",
     url: "https://abilitybehavioralhealth.com/",
     category: "WordPress",
+    animation: "fade-left",
   },
   {
     image: Natours,
@@ -113,6 +125,7 @@ const projectsData = [
     desc: "A random project built with HTML and CSS",
     url: "https://hizeek.github.io/Natours/",
     category: "Others",
+    animation: "fade-right",
   },
 ];
 

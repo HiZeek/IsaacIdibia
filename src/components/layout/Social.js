@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Social = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="home-social">
+    <div data-aos="fade-down" className="home-social">
       <a
         href="https://github.com/HiZeek"
         className="home-social-icon"

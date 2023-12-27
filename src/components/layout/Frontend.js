@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Frontend = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="skills-content">
+    <div className="skills-content" data-aos="zoom-out-up">
       <h3 className="skills-title">Frontend developer</h3>
       <div className="skills-box">
         <div className="skills-group">

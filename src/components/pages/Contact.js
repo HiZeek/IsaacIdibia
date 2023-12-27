@@ -1,10 +1,16 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../style/Contact.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   const form = useRef();
   const [isSuccessful, setIsSuccessful] = useState(false);
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,11 +39,15 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section-title">Get in touch</h2>
-      <span className="section-subtitle">Contact Me</span>
+      <h2 data-aos="fade-up" className="section-title">
+        Get in touch
+      </h2>
+      <span data-aos="fade-up" className="section-subtitle">
+        Contact Me
+      </span>
 
       <div className="contact-container container grid">
-        <div className="contact-content">
+        <div data-aos="fade-right" className="contact-content">
           <h3 className="contact-title">Talk to me</h3>
           <div className="contact-info">
             <div className="contact-card">
@@ -66,7 +76,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contact-content">
+        <div data-aos="fade-up" className="contact-content">
           <h3 className="contact-title">Write me your project</h3>
           {!isSuccessful ? (
             <form ref={form} onSubmit={sendEmail} className="contact-form">
