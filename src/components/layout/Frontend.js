@@ -23,35 +23,35 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">CSS</h3>
-              <span className="skills-level">Advanced</span>
+              <span className="skills-level">Expert</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">JavaScript</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Advanced</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Bootstrap</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Expert</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Tailwind</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Expert</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Git</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Expert</span>
             </div>
           </div>
         </div>
@@ -60,42 +60,42 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">GitHub</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Expert</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">React JS</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Advanced</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Redux</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Advanced</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Next JS</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Advanced</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">TypeScript</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Advanced</span>
             </div>
           </div>
           <div className="skills-data">
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills-name">Firebase</h3>
-              <span className="skills-level">Intermediate</span>
+              <span className="skills-level">Advanced</span>
             </div>
           </div>
         </div>

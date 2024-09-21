@@ -29,7 +29,7 @@ const About = () => {
           <Info />
           <p className="about-description">
             My name is Isaac Idibia, I am a dedicated Front-end Software
-            Developer with 3 years of hands-on experience crafting and managing
+            Developer with 4 years of hands-on experience crafting and managing
             innovative products that create amazing user experiences. I love
             diving into technologies like React.js, Redux, TypeScript, and
             GraphQL APIs as part of tight-knit, agile teams. My journey is all
