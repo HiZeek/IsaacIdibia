@@ -28,15 +28,18 @@ const About = () => {
         <div className="about-data" data-aos="fade-left">
           <Info />
           <p className="about-description">
-            My name is Isaac Idibia, I am a dedicated Front-end Software
-            Developer with 4 years of hands-on experience crafting and managing
-            innovative products that create amazing user experiences. I love
-            diving into technologies like React.js, Redux, TypeScript, and
-            GraphQL APIs as part of tight-knit, agile teams. My journey is all
-            about learning while delivering. Currently, I'm on the lookout for
-            an exciting opportunity in a forward-thinking company. I'm eager to
-            apply my technical skills, collaborate closely, and help clients
-            reach their goals – all while expanding my own horizons.
+            I am a dedicated Front-end Software Developer with 4 years of
+            hands-on experience building and managing innovative products that
+            deliver exceptional user experiences. I specialize in technologies
+            like React.js, Next.js, Redux, TypeScript, Tailwind CSS, and REST
+            API integration, and thrive as part of agile, collaborative teams.
+            My journey is defined by a passion for continuous learning and a
+            commitment to delivering high-quality solutions.
+            <br />I am currently seeking an opportunity to contribute my
+            expertise to a forward-thinking company. I am eager to apply my
+            technical skills, collaborate with like-minded professionals, and
+            help clients achieve their goals while continuing to grow both
+            personally and professionally.
           </p>
           <a
             href="https://drive.google.com/file/d/1BEXKNiUaqgZEf5qzbG2rPkFO4wDQYls_/view?usp=sharing"
