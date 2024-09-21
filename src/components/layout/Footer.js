@@ -1,11 +1,11 @@
 import React from "react";
-import '../style/Footer.css'
+import "../style/Footer.css";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container container">
-        <h1 className="footer-title">Isaac</h1>
+        <h1 className="footer-title">Isaac.I</h1>
         <ul className="footer-list">
           <li>
             <a href="#about" className="footer-link">
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer-copy">
-            &#169; Isaac Idibia. All rights reserved
+          &#169; Isaac Idibia. All rights reserved
         </span>
       </div>
     </footer>
