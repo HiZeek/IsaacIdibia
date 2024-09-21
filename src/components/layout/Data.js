@@ -61,7 +61,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home-subtitle">Frontend Developer</h3>
+      <h3 className="home-subtitle">Frontend Software Developer</h3>
       <p className="home-description">
         I create engaging and responsive websites with incredible user
         experiences.
