@@ -3,9 +3,9 @@ import VersalVest from "../../assets/versalvest.png";
 import MahoganyModels from "../../assets/mahoganymodels.png";
 import FilmByFrazier from "../../assets/film_by_frazier.png";
 import SlackClone from "../../assets/SlackClone.png";
-// import BobbyLamkin from "../../assets/bobby_lamkin.png";
+import Spendify from "../../assets/spendify.png";
 import AbilityBehavioural from "../../assets/ability_behavioural.png";
-// import Coverly from "../../assets/coverly.png";
+import Dtms from "../../assets/DTMS.png";
 import GmailClone from "../../assets/gmail_clone.png";
 import LinkedInClone from "../../assets/linkedin_clone.png";
 import Natours from "../../assets/natours.png";
@@ -17,6 +17,22 @@ import AdminDashboard from "../../assets/AdminDashboard.png";
 
 const projectsData = [
   {
+    image: Spendify,
+    title: "Spendify",
+    desc: "A fintech company",
+    url: "https://spendify.ca/",
+    category: "React JS",
+    animation: "fade-right",
+  },
+  {
+    image: Dtms,
+    title: "DTMS",
+    desc: "A security company",
+    url: "https://dtms.app/",
+    category: "React JS",
+    animation: "fade-left",
+  },
+  {
     image: AdminDashboard,
     title: "Admin Dashboard",
     desc: "Admin Dashboard built with ReactJS, MUI, Nivo Charts",
@@ -24,6 +40,14 @@ const projectsData = [
     category: "React JS",
     animation: "fade-right",
   },
+  // {
+  //   image: AdminDashboard,
+  //   title: "Admin Dashboard",
+  //   desc: "Admin Dashboard built with ReactJS, MUI, Nivo Charts",
+  //   url: "https://addmindashboard.netlify.app/",
+  //   category: "React JS",
+  //   animation: "fade-left",
+  // },
   {
     image: GmailClone,
     title: "Gmail clone",
